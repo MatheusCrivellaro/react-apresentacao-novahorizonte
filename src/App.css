@@ -15,7 +15,9 @@
 
 .container-conteudo {
     background-color: #081E2C;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    height: auto;
 }
 
 .container-sombra {

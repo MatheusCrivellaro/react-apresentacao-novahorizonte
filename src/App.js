@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from "./components/NavBar";
 import TitlePage from "./components/TitlePage";
+import InformationContent from "./components/InformationContent";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
               <span className="container-sombra"/>
           </div>
           <div className="container-conteudo">
+              <InformationContent />
           </div>
       </div>
   );
