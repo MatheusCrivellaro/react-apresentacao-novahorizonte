@@ -14,6 +14,11 @@ function App() {
           <div className="container-conteudo">
               <InformationContent />
           </div>
+          <div>
+              <div>
+                  <InformationContent />
+              </div>
+          </div>
       </div>
   );
 }
