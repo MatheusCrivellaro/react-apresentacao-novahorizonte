@@ -1,0 +1,8 @@
+.col-image-information {
+    padding: 0;
+}
+
+.col-image-information img {
+    height: auto;
+    width: 100%;
+}

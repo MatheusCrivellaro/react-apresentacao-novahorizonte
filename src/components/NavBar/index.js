@@ -3,11 +3,11 @@ import {IoIosMenu} from "react-icons/io";
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg nav-menu fixed-top">
+        <nav className="navbar navbar-expand-md nav-menu fixed-top">
             <div className="container-fluid">
                 <div className="d-flex justify-content-between title-nav">
                     <a href="#sobre" className="navbar-brand">
-                        <img src="/images/Sem%20título-1.png" alt="Logo" width="30"/>
+                        <img src="/images/logo.png" alt="Logo" width="30"/>
                         <span className="ms-3 title item-nav">NovaHorizonte</span>
                     </a>
                     <button className="navbar-toggler border-0 px-3" type="button" data-bs-toggle="collapse"

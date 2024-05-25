@@ -1,13 +1,11 @@
+import PreTitle from '../PreTitle';
 import './TitlePage.css'
 import { FaArrowDown } from "react-icons/fa";
 
 const TitlePage = () => {
     return (
         <div className="title-page">
-            <div className="pre-title">
-                <div className="linha-title"/>
-                <span>APRESENTAÇÂO</span>
-            </div>
+            <PreTitle title="APRESENTAÇÂO"/>
             <h1>NovaHorizonte</h1>
             <h2>Tecnologia e Inovação</h2>
             <a className="scroll-div" href="#a">

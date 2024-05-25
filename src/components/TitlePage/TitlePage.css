@@ -9,19 +9,13 @@
 .title-page h1 {
     font-weight: 600;
     font-size: 56px;
+    margin-top: 10px;
 }
 
 .title-page h2 {
     font-size: 25px;
     font-weight: 400;
     text-align: start;
-}
-
-.linha-title {
-    border-bottom: solid 1px #FBD784;
-    height: 0;
-    width: 12%;
-    margin-right: 15px;
 }
 
 .scroll-div {
@@ -40,12 +34,4 @@
 
 .scroll-icon {
     font-size: 11px;
-}
-
-.pre-title {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    font-weight: 600;
-    color: #FBD784;
 }
