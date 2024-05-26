@@ -3,8 +3,8 @@
 }
 
 .container-title {
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size: 100%;
     background-image: url("../public/images/pexels-pixabay-270756.jpg");
     display: flex;
     align-items: center;

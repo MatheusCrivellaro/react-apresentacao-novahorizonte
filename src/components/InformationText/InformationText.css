@@ -18,7 +18,7 @@
 
 .description-information {
     color: #fff;
-    font-size: 14px
+    font-size: 15px
 }
 
 .readmore-information {
@@ -40,7 +40,7 @@
 .number-information {
     position: absolute;
     padding: 0;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-10%);
     top: 0;
     left: 0;
     font-weight: 700;
