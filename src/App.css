@@ -14,17 +14,19 @@
 }
 
 .container-conteudo {
-    background-color: greenyellow;
+    background-color: #081E2C;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
+    padding-top: 90px;
     margin: 0;
 }
 
 @media (min-width: 992px) {
     .container-conteudo {
+        background-color: #081E2C;
         display: flex;
         flex-direction: column;
         justify-content: center;
