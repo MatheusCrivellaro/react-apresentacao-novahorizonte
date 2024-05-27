@@ -45,3 +45,17 @@
     height: 50vh;
     background: linear-gradient(to bottom, rgba(8, 30, 44, 0), rgba(8, 30, 44, 1));
 }
+
+.container-footer {
+    width: 100%;
+    padding: 0 0 30px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .container-footer {
+        width: 90%;
+        padding: 0 0 50px;
+        color: white;
+    }
+}
