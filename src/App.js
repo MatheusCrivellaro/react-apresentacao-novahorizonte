@@ -10,9 +10,9 @@ function App() {
             <NavBar/>
             <div className="container-title" id="home">
                 <TitlePage/>
-                <span className="container-sombra"/>
             </div>
             <div className="container-conteudo" id="sobre">
+                <span className="container-sombra"/>
                 <InformationContent number="01" title="O que é a NovaHorizonte?" preTitle="SOBRE"
                                     image="/images/Logo-novaHorizonte-round-background.png" invert={false}>
                     A NovaHorizonte Tecnologia e Inovação é uma empresa fictícia criada para exemplificar um modelo de
