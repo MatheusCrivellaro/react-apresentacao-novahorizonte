@@ -14,13 +14,12 @@
 }
 
 .container-conteudo {
-    background-color: #081E2C;
+    background-color: greenyellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    padding-top: 90px;
     margin: 0;
 }
 
