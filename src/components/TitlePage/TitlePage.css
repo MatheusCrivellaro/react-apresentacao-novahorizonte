@@ -8,14 +8,30 @@
 
 .title-page h1 {
     font-weight: 600;
-    font-size: 56px;
+    font-size: 32px;
     margin-top: 10px;
 }
 
+@media (min-width: 768px) {
+    .title-page h1 {
+        font-weight: 600;
+        font-size: 56px;
+        margin-top: 10px;
+    }
+}
+
 .title-page h2 {
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 400;
     text-align: start;
+}
+
+@media (min-width: 768px) {
+    .title-page h2 {
+        font-size: 25px;
+        font-weight: 400;
+        text-align: start;
+    }
 }
 
 .scroll-div {
@@ -28,8 +44,15 @@
 }
 
 .scroll-div span {
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 8px;
+}
+
+@media (min-width: 768px) {
+    .scroll-div span {
+        font-size: 12px;
+        margin-right: 8px;
+    }
 }
 
 .scroll-icon {

@@ -6,19 +6,36 @@
     padding: 0;
 }
 
-.col-subtext-information {
-    padding: 0 60px;
+@media (min-width: 992px) {
+    .col-subtext-information {
+        padding: 0 60px;
+    }
 }
 
 .title-information {
     color: #fff;
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+    .title-information {
+        color: #fff;
+        font-size: 42px;
+        margin-top: 15px;
+    }
 }
 
 .description-information {
     color: #fff;
-    font-size: 15px
+    font-size: 13px
+}
+
+@media (min-width: 1200px) {
+    .description-information {
+        color: #fff;
+        font-size: 15px
+    }
 }
 
 .readmore-information {

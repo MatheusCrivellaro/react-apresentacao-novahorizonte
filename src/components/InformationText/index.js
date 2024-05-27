@@ -4,7 +4,7 @@ import {IoMdArrowForward} from "react-icons/io";
 
 const InformationText = ({ children, title, preTitle, number }) => {
     return (
-        <div className="col-text-information col-7">
+        <div className="col-text-information col-12 col-md-7">
             <div className="col-subtext-information">
                 <span className="number-information">{number}</span>
                 <PreTitle title={preTitle}/>

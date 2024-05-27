@@ -10,3 +10,13 @@
     justify-content: space-between;
     margin-bottom: 130px;
 }
+
+.colunm-reverse-md {
+    flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+    .colunm-reverse-md {
+        flex-direction: row;
+    }
+}
